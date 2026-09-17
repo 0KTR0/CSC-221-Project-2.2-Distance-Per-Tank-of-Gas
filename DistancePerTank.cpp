@@ -11,7 +11,7 @@ int main()
     const int tankSize = 20; // Tank size in gallons
     const double townMPG = 23.5; // Miles per gallon in town
     const double highwayMPG = 28.9; // Miles per gallon on the highway
-    double townDistance, highwayDistance; // initialize variables to hold the distances
+    double townDistance, highwayDistance; // initialization of variables to hold the distances
 
     // Calculate the distance the car can travel in town and on the highway
     townDistance = tankSize * townMPG;
